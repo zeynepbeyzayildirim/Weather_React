@@ -1,0 +1,54 @@
+
+ .container {
+   @apply max-w-3xl w-full mx-auto py-8 px-4 text-zinc-500 antialiased;
+ }
+ 
+ .weatherApp-header {
+   @apply bg-cyan-50 border border-zinc-100 p-2 rounded-lg ;
+ }
+ 
+ .weekWeather {
+   @apply flex flex-wrap sm:flex-nowrap justify-between sm:space-x-1 sm:space-y-0 space-y-2 flex-row  py-2;
+ }
+ 
+ .weekWeather-card {
+   @apply
+   p-4 m-4 text-center hover:text-zinc-500 flex flex-col justify-center items-center shadow-sm sm:shadow-none sm:rounded first:border  first:border-zinc-100 bg-slate-50;
+ }
+ .cardTitle {
+   @apply w-full text-lg rounded-lg py-4 text-center mt-2 bg-cyan-100 shadow-inner;
+ }
+ .cardTitle span {
+   @apply font-bold;
+ }
+ input {
+   @apply capitalize rounded px-3 py-2 text-sm border border-zinc-200 focus:outline-none;
+ }
+ 
+ .maxmin {
+   @apply font-semibold space-x-1;
+ }
+ 
+ .min,
+ .month {
+   @apply opacity-50 group-hover:opacity-100;
+ }
+ .icon {
+   @apply my-2;
+ }
+ .icon img {
+   @apply w-12 h-auto group-hover:scale-110;
+ }
+ 
+ .date {
+   @apply flex flex-col;
+ }
+ .day {
+   @apply font-bold text-2xl;
+ }
+ 
+ 
+ 
+ .loading {
+   @apply flex items-center my-2 justify-center text-lg rounded border border-zinc-100 w-full py-5 font-semibold text-zinc-400;
+ }
